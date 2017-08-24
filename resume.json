@@ -1,0 +1,175 @@
+{
+  "basics": {
+    "name": "Martin Hristov",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "martin [at] dreambox [dot] biz",
+    "phone": "+359 889 693 597",
+    "website": "https://linkedin.com/in/martin-hristov",
+    "summary": "Software engineer with 12+ years of experience. Expert in building complex distributed applications. Focused on delivery and passionate about clean code.",
+    "location": {
+      "address": "39A Nikola Gabrovski Str.",
+      "postalCode": "1000",
+      "city": "Sofia",
+      "countryCode": "BG",
+      "region": "Sofia"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "EPAM",
+      "position": "Lead Software Engineer",
+      "website": "https://epam.com/",
+      "startDate": "Apr 2015",
+      "endDate": "Present",
+      "summary": "EPAM is a leading global product development and digital platform engineering services company.",
+      "highlights": [
+        "Leading a distributed cross-functional team at Royal Bank of Scotland",
+        "Fully transformed the development process and migrated to Lean Kaizen",
+        "Pioneered the adoption of microservices-based architecture",
+        "Actively participated in establishing software engineering competence at EPAM Bulgaria"
+      ]
+    },
+    {
+      "company": "Javelin Group",
+      "position": "Lead Software Engineer",
+      "website": "http://javelingroup.com",
+      "startDate": "Apr 2013",
+      "endDate": "Apr 2015",
+      "summary": "Javelin Group is a leading provider of omni-channel retail solutions and e-commerce consultancy.",
+      "highlights": [
+        "Led the implementation and integration of product information management system for Harrods Ltd.",
+        "Hybris 4 to Hybris 5 migration of the online store of the largest UK kitchenware retailer",
+        "Increased quality and delivery by introducing test and deployment automation"
+      ]
+    },
+    {
+      "company": "SEEBURGER AG",
+      "position": "Software Engineer",
+      "website": "http://www.seeburger.com",
+      "startDate": "Mar 2008",
+      "endDate": "Apr 2013",
+      "summary": "SEEBURGER is a market leader in the B2B sector. The company provides business integration and managed file transfer (MFT) solutions to a wide range of customer sectors.",
+      "highlights": [
+        "Implemented and supported new and existing functionalities of an in-house data transformations programming language",
+        "Designed and implemented a test harness for EDIFACT directory imports",
+        "Became part of R&D team working on a new generation data transformation solution"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Tech Talks",
+      "position": "Speaker",
+      "website": "http://techtalks.bg/",
+      "startDate": "Jul 2015",
+      "endDate": "Jul 2015",
+      "summary": "Gave talk on \"Concurrent programming without synchronization\""
+    },
+    {
+      "organization": "EPAM Education Programme",
+      "position": "Lecturer",
+      "website": "https://epa.ms/education-programme",
+      "startDate": "Jul 2016",
+      "endDate": "Present",
+      "summary": "Participate as lecturer and mentor in EPAM Junior Developers training programme"
+    }
+  ],
+  "education": [
+    {
+      "institution": "'Paisii Hilendarski' University of Plovdiv",
+      "area": "Informatics",
+      "studyType": "Bachelor",
+      "startDate": "Oct 2005",
+      "endDate": "Jul 2009",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "'Acad. Sergey Pavlovich Korolev' High School",
+      "area": "Informatics",
+      "studyType": "High School",
+      "startDate": "Sep 2000",
+      "endDate": "Jun 2005",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        "Java SE/EE",
+        "Spring",
+        "TDD (JUnit/Mockito/Hamcrest)",
+        "Maven",
+        "SQL",
+        "Linux and bash scripting"
+      ]
+    },
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        "Wildfly Swarm",
+        "Hybris",
+        "Apache Camel",
+        "Git",
+        "ANTLR",
+        "Docker"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Proficient speaker"
+    },
+    {
+      "language": "Bulgarian",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "Photography",
+        "Science"
+      ]
+    },
+    {
+      "name": "",
+      "keywords": [
+        "Philosophy",
+        "Civic hacking"
+      ]
+    },
+    {
+      "name": "",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Andrew Bailey",
+      "reference": "Martin is a great guy to work with both professionally and personally. Martin had a unique ability to see beyond the fog of issues and come up with solid, tactical solutions to drive the project forward. Martin has excellent Java development skills, and is able to grasp complex business logic and translate them into software solutions. I look forward to working with Martin again sometime in the future."
+    },
+    {
+      "name": "Rohit Gogna",
+      "reference": "It was a pleasure working with Martin whilst he was at Javelin Group. A patient and intelligent professional, Martin delivered to the highest quality and took pride in his work. I would recommend Martin to any company."
+    },
+    {
+      "name": "Veselin Petrov",
+      "reference": "I've worked together with Martin, in Javelin Group, on a very demanding project to deliver complex E-commerce solution to our client. Martin is great developer and leader. He has really vast technical expertise and is always ready to help and provide support to his team. I believe he will be a valuable asset to any IT team."
+    },
+    {
+      "name": "Martin Atanasov",
+      "reference": "Martin is very bright and capable. At Seeburger he managed to quickly get familiar with and become the expert on an extremely complex project such as the inhouse-built compiler. Even at his early career stages Martin demonstrated good overall grasp of technologies and processes as well as great leadership skills. Additionally, he's very positive and easy-going. I'd love to work with him again in the future."
+    }
+  ]
+}

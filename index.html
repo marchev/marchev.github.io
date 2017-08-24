@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Martin Hristov</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Martin Hristov
+					</h1>
+					<h2>
+						Software Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">martin [at] dreambox [dot] biz</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+359 889 693 597</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="https://linkedin.com/in/martin-hristov">https://linkedin.com/in/martin-hristov</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Software engineer with 12+ years of experience. Expert in building complex distributed applications. Focused on delivery and passionate about clean code.</p>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>EPAM</span>
+					<span class="date">
+						Apr 2015 — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://epam.com/">https://epam.com/</a>
+				</div>
+				<div class="position">
+					Lead Software Engineer
+				</div>
+				<div class="summary">
+					<p>EPAM is a leading global product development and digital platform engineering services company.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Leading a distributed cross-functional team at Royal Bank of Scotland</li>
+					<li class="bullet">Fully transformed the development process and migrated to Lean Kaizen</li>
+					<li class="bullet">Pioneered the adoption of microservices-based architecture</li>
+					<li class="bullet">Actively participated in establishing software engineering competence at EPAM Bulgaria</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Javelin Group</span>
+					<span class="date">
+						Apr 2013 — Apr 2015
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://javelingroup.com">http://javelingroup.com</a>
+				</div>
+				<div class="position">
+					Lead Software Engineer
+				</div>
+				<div class="summary">
+					<p>Javelin Group is a leading provider of omni-channel retail solutions and e-commerce consultancy.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Led the implementation and integration of product information management system for Harrods Ltd.</li>
+					<li class="bullet">Hybris 4 to Hybris 5 migration of the online store of the largest UK kitchenware retailer</li>
+					<li class="bullet">Increased quality and delivery by introducing test and deployment automation</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>SEEBURGER AG</span>
+					<span class="date">
+						Mar 2008 — Apr 2013
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.seeburger.com">http://www.seeburger.com</a>
+				</div>
+				<div class="position">
+					Software Engineer
+				</div>
+				<div class="summary">
+					<p>SEEBURGER is a market leader in the B2B sector. The company provides business integration and managed file transfer (MFT) solutions to a wide range of customer sectors.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Implemented and supported new and existing functionalities of an in-house data transformations programming language</li>
+					<li class="bullet">Designed and implemented a test harness for EDIFACT directory imports</li>
+					<li class="bullet">Became part of R&amp;D team working on a new generation data transformation solution</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Tech Talks</span>
+					<span class="date">
+						Jul 2015 — Jul 2015
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://techtalks.bg/">http://techtalks.bg/</a>
+				</div>
+				<div class="position">
+					Speaker
+				</div>
+				<div class="summary">
+					<p>Gave talk on &quot;Concurrent programming without synchronization&quot;</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>EPAM Education Programme</span>
+					<span class="date">
+						Jul 2016 — Present
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://epa.ms/education-programme">https://epa.ms/education-programme</a>
+				</div>
+				<div class="position">
+					Lecturer
+				</div>
+				<div class="summary">
+					<p>Participate as lecturer and mentor in EPAM Junior Developers training programme</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>&#x27;Paisii Hilendarski&#x27; University of Plovdiv</span>
+					<span class="date">
+						Oct 2005 — Jul 2009
+					</span>
+				</h4>
+				<div class="area">
+					Informatics
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>&#x27;Acad. Sergey Pavlovich Korolev&#x27; High School</span>
+					<span class="date">
+						Sep 2000 — Jun 2005
+					</span>
+				</h4>
+				<div class="area">
+					Informatics
+				</div>
+				<div class="studyType">
+					High School
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4></h4>
+				</div>
+				<ul class="keywords">
+					<li>Java SE/EE</li>
+					<li>Spring</li>
+					<li>TDD (JUnit/Mockito/Hamcrest)</li>
+					<li>Maven</li>
+					<li>SQL</li>
+					<li>Linux and bash scripting</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4></h4>
+				</div>
+				<ul class="keywords">
+					<li>Wildfly Swarm</li>
+					<li>Hybris</li>
+					<li>Apache Camel</li>
+					<li>Git</li>
+					<li>ANTLR</li>
+					<li>Docker</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Proficient speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Bulgarian</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4></h4>
+				</div>
+				<ul class="keywords">
+					<li>Photography</li>
+					<li>Science</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4></h4>
+				</div>
+				<ul class="keywords">
+					<li>Philosophy</li>
+					<li>Civic hacking</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4></h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="references" class="row">
+		<aside class="col-sm-3">
+			<h3>References</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Martin is a great guy to work with both professionally and personally. Martin had a unique ability to see beyond the fog of issues and come up with solid, tactical solutions to drive the project forward. Martin has excellent Java development skills, and is able to grasp complex business logic and translate them into software solutions. I look forward to working with Martin again sometime in the future.</p>
+					<p class="name">
+						<strong>— Andrew Bailey</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>It was a pleasure working with Martin whilst he was at Javelin Group. A patient and intelligent professional, Martin delivered to the highest quality and took pride in his work. I would recommend Martin to any company.</p>
+					<p class="name">
+						<strong>— Rohit Gogna</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>I&#x27;ve worked together with Martin, in Javelin Group, on a very demanding project to deliver complex E-commerce solution to our client. Martin is great developer and leader. He has really vast technical expertise and is always ready to help and provide support to his team. I believe he will be a valuable asset to any IT team.</p>
+					<p class="name">
+						<strong>— Veselin Petrov</strong>
+					</p>
+				</blockquote>
+			</div>
+			<div class="col-sm-12">
+				<blockquote class="reference">
+					<p>Martin is very bright and capable. At Seeburger he managed to quickly get familiar with and become the expert on an extremely complex project such as the inhouse-built compiler. Even at his early career stages Martin demonstrated good overall grasp of technologies and processes as well as great leadership skills. Additionally, he&#x27;s very positive and easy-going. I&#x27;d love to work with him again in the future.</p>
+					<p class="name">
+						<strong>— Martin Atanasov</strong>
+					</p>
+				</blockquote>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	</div>
+	
+	</body>
+</html>
