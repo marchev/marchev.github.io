@@ -65,7 +65,7 @@
       "website": "http://techtalks.bg/",
       "startDate": "Jul 2015",
       "endDate": "Jul 2015",
-      "summary": "Gave talk on \"Concurrent programming without synchronization\""
+      "summary": "Gave talk under the topic \"Concurrent programming without synchronization\""
     },
     {
       "organization": "EPAM Education Programme",
@@ -73,7 +73,7 @@
       "website": "https://epa.ms/education-programme",
       "startDate": "Jul 2016",
       "endDate": "Present",
-      "summary": "Participate as lecturer and mentor in EPAM Junior Developers training programme"
+      "summary": "Participating as lecturer and mentor in EPAM Junior Developers training programme"
     }
   ],
   "education": [
