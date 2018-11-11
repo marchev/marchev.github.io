@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Martin Hristov",
+    "name": "Martin Marchev",
     "label": "Software Engineer",
-    "picture": "",
-    "email": "martin [at] dreambox [dot] biz",
+    "picture": "https://github.com/marchev.png",
+    "email": "martin [at] marchev [dot] org",
     "phone": "+359 889 693 597",
-    "website": "https://linkedin.com/in/martin-hristov",
+    "website": "https://www.linkedin.com/in/martin-marchev/",
     "summary": "Software engineer with 12+ years of experience. Expert in building complex distributed applications. Focused on delivery and passionate about clean code.",
     "location": {
       "address": "39A Nikola Gabrovski Str.",
@@ -18,14 +18,29 @@
   },
   "work": [
     {
+      "company": "Prime Holding",
+      "position": "Head of Java Development",
+      "website": "https://www.primeholding.com/",
+      "startDate": "Jan 2018",
+      "endDate": "Present",
+      "summary": "Prime Holding is a leading IT solutions provider.",
+      "highlights": [
+        "Create and maintain an engineering culture by coaching, identifying training needs and establishing industry best practices",
+        "Strategy development and team growth planning in accordance with the company's objectives and goals",
+        "Research, design and implement performance management processes",
+        "Participate in pre-sales activities",
+        "Lead technical recruitment"
+      ]
+    },
+    {
       "company": "EPAM",
       "position": "Lead Software Engineer",
       "website": "https://epam.com/",
       "startDate": "Apr 2015",
-      "endDate": "Present",
+      "endDate": "Jan 2018",
       "summary": "EPAM is a leading global product development and digital platform engineering services company.",
       "highlights": [
-        "Leading a distributed cross-functional team at Royal Bank of Scotland",
+        "Leading a distributed cross-functional team at the Royal Bank of Scotland",
         "Fully transformed the development process and migrated to Lean Kaizen",
         "Pioneered the adoption of microservices-based architecture",
         "Actively participated in establishing software engineering competence at EPAM Bulgaria"
@@ -59,6 +74,14 @@
     }
   ],
   "volunteer": [
+    {
+      "organization": "Prime Tech Talks",
+      "position": "Speaker",
+      "website": "http://primeholding.com/",
+      "startDate": "Mar 2018",
+      "endDate": "Mar 2018",
+      "summary": "Gave talk under the topic \"Introduction to Reactive Programming with Reactor 3\""
+    },
     {
       "organization": "Tech Talks",
       "position": "Speaker",
@@ -104,11 +127,12 @@
       "level": "",
       "keywords": [
         "Java SE/EE",
-        "Spring",
-        "TDD (JUnit/Mockito/Hamcrest)",
-        "Maven",
+        "Spring Boot",
+        "Reactive Programming",
+        "TDD (JUnit 5/Mockito/AssertJ)",
         "SQL",
-        "Linux and bash scripting"
+        "Maven",
+        "CI/CD pipelines"
       ]
     },
     {
@@ -117,10 +141,11 @@
       "keywords": [
         "Wildfly Swarm",
         "Hybris",
-        "Apache Camel",
+        "NoSQL (Redis, Cassandra)",
         "Git",
         "ANTLR",
-        "Docker"
+        "Docker & Kubernetes",
+        "Linux and bash scripting"
       ]
     }
   ],
@@ -146,7 +171,7 @@
       "name": "",
       "keywords": [
         "Philosophy",
-        "Civic hacking"
+        "Boxing"
       ]
     },
     {
@@ -155,6 +180,10 @@
     }
   ],
   "references": [
+    {
+      "name": "Vladimir Natchev, Senior Software Engineering Manager at EPAM",
+      "reference": "Martin worked at EPAM Systems for three years as Lead Software Engineer. He was initially responsible for the development of a complex multithreaded system for one of our Investment Banking clients and after demonstrating both strong technical and analytical skills and outstanding organisational capabilities he received the responsibility to lead one of our full stack product-development teams. In his new role he successfully delivered value and often surpassed the expectations while deploying and further improving the right technical process in combination with the realisation of a fully Agile team culture and setup. I am delighted with Martin's performance during his entire employment with EPAM, and I am confident to recommend him to any technology leadership role."
+    },
     {
       "name": "Andrew Bailey, former Web Development Producer at Lakeland",
       "reference": "Martin is a great guy to work with both professionally and personally. Martin had a unique ability to see beyond the fog of issues and come up with solid, tactical solutions to drive the project forward. Martin has excellent Java development skills, and is able to grasp complex business logic and translate them into software solutions. I look forward to working with Martin again sometime in the future."
