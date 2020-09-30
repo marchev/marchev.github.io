@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Martin Marchev",
-    "label": "Software Engineer",
+    "label": "Engineering Manager",
     "picture": "https://github.com/marchev.png",
     "email": "martin [at] marchev [dot] org",
     "phone": "+359 889 693 597",
     "website": "https://www.linkedin.com/in/martin-marchev/",
-    "summary": "Software engineer with 12+ years of experience. Expert in building complex distributed applications. Focused on delivery and passionate about clean code.",
+    "summary": "Engineering manager with 4 years of managerial experience. 12 years of experience as a software engineer. Experienced in building self-organized teams and focused on fostering a positive engineering culture.",
     "location": {
-      "address": "39A Nikola Gabrovski Str.",
+      "address": "...",
       "postalCode": "1000",
       "city": "Sofia",
       "countryCode": "BG",
@@ -18,11 +18,26 @@
   },
   "work": [
     {
+      "company": "Paysafe (Skrill)",
+      "position": "Engineering Manager",
+      "website": "https://www.skrill.com/",
+      "startDate": "Jan 2019",
+      "endDate": "Present",
+      "summary": "Paysafe provides businesses around the globe with simple integration payment APIs, as well as fraud and risk management services.",
+      "highlights": [
+        "Lead and develop autonomous teams who own their products and processes end-to-end",
+        "Create and foster a culture of continuous improvement, curiosity and collaboration",
+        "Drive technical roadmap and direction",
+        "Mentor and coach aspiring engineering managers",
+        "Talent source and hire qualified engineers"
+      ]
+    },
+    {
       "company": "Prime Holding",
       "position": "Head of Java Development",
       "website": "https://www.primeholding.com/",
       "startDate": "Jan 2018",
-      "endDate": "Present",
+      "endDate": "Jan 2019",
       "summary": "Prime Holding is a leading IT solutions provider.",
       "highlights": [
         "Create and maintain an engineering culture by coaching, identifying training needs and establishing industry best practices",
